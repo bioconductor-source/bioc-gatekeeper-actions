@@ -1,13 +1,13 @@
 package: sketchR
 version: 1.4.0
 commit_hash: 04d2eca3d022fd0e111d59de872f96fb6625ffcf
-last_check: 2025-08-22 17:44:33 UTC
-last_successful_check: 2025-08-22 17:44:33 UTC
-status: pending_check
+last_check: 2025-08-22 19:26:24 UTC
+last_successful_check: 2025-08-22 19:26:24 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-08-22 19:20:56 UTC
+last_check_attempt: 2025-08-22 19:25:36 UTC
 last_check_details:
-  timestamp: 2025-08-22 17:44:33 UTC
+  timestamp: 2025-08-22 19:26:24 UTC
   status: passed
   checks:
     merge_markers:

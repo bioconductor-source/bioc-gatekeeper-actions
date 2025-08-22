@@ -1,13 +1,13 @@
 package: SRAdb
 version: 1.70.0
 commit_hash: 0ea2915be015cbad1f789f681182594a9a0fc1b3
-last_check: 2025-08-22 17:45:30 UTC
-last_successful_check: 2025-08-22 17:45:30 UTC
-status: pending_check
+last_check: 2025-08-22 19:27:17 UTC
+last_successful_check: 2025-08-22 19:27:17 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-08-22 19:20:56 UTC
+last_check_attempt: 2025-08-22 19:25:36 UTC
 last_check_details:
-  timestamp: 2025-08-22 17:45:30 UTC
+  timestamp: 2025-08-22 19:27:17 UTC
   status: passed
   checks:
     merge_markers:

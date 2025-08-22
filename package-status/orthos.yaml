@@ -1,13 +1,13 @@
 package: orthos
 version: 1.6.0
 commit_hash: 9656fce0d89fed74cba7fc7b4b842c3ddf166c4b
-last_check: 2025-08-22 17:44:34 UTC
-last_successful_check: 2025-08-22 17:44:34 UTC
-status: pending_check
+last_check: 2025-08-22 19:26:26 UTC
+last_successful_check: 2025-08-22 19:26:26 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-08-22 19:20:56 UTC
+last_check_attempt: 2025-08-22 19:25:36 UTC
 last_check_details:
-  timestamp: 2025-08-22 17:44:34 UTC
+  timestamp: 2025-08-22 19:26:26 UTC
   status: passed
   checks:
     merge_markers:

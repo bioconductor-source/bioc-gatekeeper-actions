@@ -1,22 +1,18 @@
 package: lpsymphony
 version: 1.36.0
 commit_hash: 3811466d004118637d20e538cd2330e68d2a1090
-last_check: 2025-08-22 17:45:09 UTC
+last_check: 2025-08-22 19:26:56 UTC
 last_successful_check: ~
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-08-22 19:20:56 UTC
+last_check_attempt: 2025-08-22 19:25:36 UTC
 last_check_details:
-  timestamp: 2025-08-22 17:45:09 UTC
+  timestamp: 2025-08-22 19:26:56 UTC
   status: failed
   checks:
     merge_markers:
       passed: no
       issues:
-      - 'Merge marker ''======='' found in src/SYMPHONY/CoinUtils/src/CoinOslFactorization2.cpp
-        (lines: 2645)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/CNRP/include/cnrp_cg.h
-        (lines: 71, 83, 140)'
       - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/MPP/testing
         (lines: 6)'
       - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/SPP/testing
@@ -25,34 +21,8 @@ last_check_details:
         (lines: 6)'
       - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/USER/testing
         (lines: 13)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/VRP/include/vrp_cg.h
-        (lines: 71, 79, 117, 127)'
       - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/VRP/testing
         (lines: 10)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_cg_u.h
-        (lines: 30)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_cg.h
-        (lines: 48, 65, 73)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_cp_u.h
-        (lines: 22)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_cp.h
-        (lines: 65, 95, 103)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_dg_u.h
-        (lines: 25)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_lp_u.h
-        (lines: 32)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_lp.h
-        (lines: 189, 222, 239, 255, 294, 322, 338)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_master_u.h
-        (lines: 21)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_master.h
-        (lines: 85, 100, 119)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_tm.h
-        (lines: 154, 228)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/symphony_api.h
-        (lines: 25)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/symphony.h
-        (lines: 191)'
       - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/scripts/compile_all
         (lines: 6, 10)'
       - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/scripts/compile_and_clean_all
@@ -79,10 +49,6 @@ last_check_details:
       errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
       full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '
 issues:
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/CoinUtils/src/CoinOslFactorization2.cpp
-  (lines: 2645)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/CNRP/include/cnrp_cg.h
-  (lines: 71, 83, 140)'
 - 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/MPP/testing
   (lines: 6)'
 - 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/SPP/testing
@@ -91,34 +57,8 @@ issues:
   (lines: 6)'
 - 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/USER/testing
   (lines: 13)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/VRP/include/vrp_cg.h
-  (lines: 71, 79, 117, 127)'
 - 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/VRP/testing
   (lines: 10)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_cg_u.h
-  (lines: 30)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_cg.h
-  (lines: 48, 65, 73)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_cp_u.h
-  (lines: 22)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_cp.h
-  (lines: 65, 95, 103)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_dg_u.h
-  (lines: 25)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_lp_u.h
-  (lines: 32)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_lp.h
-  (lines: 189, 222, 239, 255, 294, 322, 338)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_master_u.h
-  (lines: 21)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_master.h
-  (lines: 85, 100, 119)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/sym_tm.h
-  (lines: 154, 228)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/symphony_api.h
-  (lines: 25)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/include/symphony.h
-  (lines: 191)'
 - 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/scripts/compile_all
   (lines: 6, 10)'
 - 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/scripts/compile_and_clean_all

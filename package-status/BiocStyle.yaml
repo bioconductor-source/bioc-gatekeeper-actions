@@ -1,13 +1,13 @@
 package: BiocStyle
 version: 2.36.0
 commit_hash: 6db70853edd81ba798bc5a4667fc67c9ceca49fd
-last_check: 2025-08-22 17:45:19 UTC
-last_successful_check: 2025-08-22 17:45:19 UTC
-status: pending_check
+last_check: 2025-08-22 19:27:06 UTC
+last_successful_check: 2025-08-22 19:27:06 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-08-22 19:20:56 UTC
+last_check_attempt: 2025-08-22 19:25:36 UTC
 last_check_details:
-  timestamp: 2025-08-22 17:45:19 UTC
+  timestamp: 2025-08-22 19:27:06 UTC
   status: passed
   checks:
     merge_markers:

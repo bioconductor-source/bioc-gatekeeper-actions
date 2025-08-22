@@ -1,13 +1,13 @@
 package: vsn
 version: 3.76.0
 commit_hash: 34cbab4d16e1c5d48ba45ae3c6c4fee2b7c9419c
-last_check: 2025-08-22 17:46:04 UTC
-last_successful_check: 2025-08-22 17:46:04 UTC
-status: pending_check
+last_check: 2025-08-22 19:27:51 UTC
+last_successful_check: 2025-08-22 19:27:51 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-08-22 19:20:56 UTC
+last_check_attempt: 2025-08-22 19:25:36 UTC
 last_check_details:
-  timestamp: 2025-08-22 17:46:04 UTC
+  timestamp: 2025-08-22 19:27:51 UTC
   status: passed
   checks:
     merge_markers:

@@ -1,13 +1,13 @@
 package: illuminaio
 version: 0.50.0
 commit_hash: 6addd84a5abacd72c20a8244c42c0025a2bc3c17
-last_check: 2025-08-22 17:45:24 UTC
-last_successful_check: 2025-08-22 17:45:24 UTC
-status: pending_check
+last_check: 2025-08-22 19:27:11 UTC
+last_successful_check: 2025-08-22 19:27:11 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-08-22 19:20:56 UTC
+last_check_attempt: 2025-08-22 19:25:36 UTC
 last_check_details:
-  timestamp: 2025-08-22 17:45:24 UTC
+  timestamp: 2025-08-22 19:27:11 UTC
   status: passed
   checks:
     merge_markers:

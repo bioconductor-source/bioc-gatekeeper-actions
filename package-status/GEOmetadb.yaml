@@ -1,9 +1,9 @@
 package: GEOmetadb
 commit_hash: ''
 last_successful_check: ~
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-08-22 19:20:56 UTC
+last_check_attempt: 2025-08-22 19:25:36 UTC
 last_check_details:
   timestamp: ~
   status: failed

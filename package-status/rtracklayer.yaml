@@ -1,13 +1,13 @@
 package: rtracklayer
 version: 1.68.0
 commit_hash: aa5ace3bafeb3acdd179911c44a439b4b406cf93
-last_check: 2025-08-22 17:45:40 UTC
-last_successful_check: 2025-08-22 17:45:40 UTC
-status: pending_check
+last_check: 2025-08-22 19:27:25 UTC
+last_successful_check: 2025-08-22 19:27:25 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-08-22 19:20:56 UTC
+last_check_attempt: 2025-08-22 19:25:36 UTC
 last_check_details:
-  timestamp: 2025-08-22 17:45:40 UTC
+  timestamp: 2025-08-22 19:27:25 UTC
   status: passed
   checks:
     merge_markers:

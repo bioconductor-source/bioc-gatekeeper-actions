@@ -1,13 +1,13 @@
 package: IRanges
 version: 2.42.0
 commit_hash: d942b61c969dd5410e09ad089f5dc584dd9b7cf9
-last_check: 2025-08-22 17:45:57 UTC
+last_check: 2025-08-22 19:27:46 UTC
 last_successful_check: ~
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-08-22 19:20:56 UTC
+last_check_attempt: 2025-08-22 19:25:36 UTC
 last_check_details:
-  timestamp: 2025-08-22 17:45:57 UTC
+  timestamp: 2025-08-22 19:27:46 UTC
   status: failed
   checks:
     merge_markers:

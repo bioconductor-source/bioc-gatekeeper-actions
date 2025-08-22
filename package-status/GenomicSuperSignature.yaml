@@ -1,18 +1,18 @@
 package: GenomicSuperSignature
 version: 1.16.1
 commit_hash: 08fd55fc2ba1f088f9fa61d00008b55986cfd5d3
-last_check: 2025-08-22 17:44:25 UTC
-last_successful_check: ~
-status: pending_check
+last_check: 2025-08-22 19:26:16 UTC
+last_successful_check: 2025-08-22 19:26:16 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-08-22 19:20:56 UTC
+last_check_attempt: 2025-08-22 19:25:36 UTC
 last_check_details:
-  timestamp: 2025-08-22 17:44:25 UTC
-  status: failed
+  timestamp: 2025-08-22 19:26:16 UTC
+  status: passed
   checks:
     merge_markers:
-      passed: no
-      issues: 'Merge marker ''<<<<<<<'' found in R/validate.R (lines: 30)'
+      passed: yes
+      issues: []
     large_files:
       passed: yes
       issues: []
@@ -27,4 +27,3 @@ last_check_details:
       warnings: []
       errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
       full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '
-issues: 'merge_markers: Merge marker ''<<<<<<<'' found in R/validate.R (lines: 30)'

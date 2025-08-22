@@ -1,13 +1,13 @@
 package: Rbowtie
 version: 1.48.0
 commit_hash: 3e162af88b4acc0a89bcf9b3309569b02dc840c6
-last_check: 2025-08-22 17:45:22 UTC
-last_successful_check: 2025-08-22 17:45:22 UTC
-status: pending_check
+last_check: 2025-08-22 19:27:08 UTC
+last_successful_check: 2025-08-22 19:27:08 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-08-22 19:20:56 UTC
+last_check_attempt: 2025-08-22 19:25:36 UTC
 last_check_details:
-  timestamp: 2025-08-22 17:45:22 UTC
+  timestamp: 2025-08-22 19:27:08 UTC
   status: passed
   checks:
     merge_markers:
