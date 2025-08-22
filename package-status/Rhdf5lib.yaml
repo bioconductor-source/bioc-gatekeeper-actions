@@ -1,8 +1,29 @@
 package: Rhdf5lib
 version: 1.30.0
 commit_hash: e60e82a78edd3ca6494c5b44ed80521766d4ae86
-last_check: ~
-last_successful_check: ~
-status: pending_check
+last_check: 2025-08-22 17:44:59 UTC
+last_successful_check: 2025-08-22 17:44:59 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-08-21 20:43:25 UTC
+last_check_attempt: 2025-08-22 17:43:44 UTC
+last_check_details:
+  timestamp: 2025-08-22 17:44:59 UTC
+  status: passed
+  checks:
+    merge_markers:
+      passed: yes
+      issues: []
+    large_files:
+      passed: yes
+      issues: []
+    dependencies:
+      passed: yes
+      issues: []
+    version:
+      passed: yes
+      issues: []
+    bioccheck:
+      passed: yes
+      warnings: []
+      errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+      full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '

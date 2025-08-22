@@ -1,8 +1,32 @@
 package: BiocVersion
 version: 3.21.1
 commit_hash: 1e5e5afe88e423e3923ab9a527f62a760278052e
-last_check: ~
+last_check: 2025-08-22 17:46:12 UTC
 last_successful_check: ~
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-08-21 20:43:25 UTC
+last_check_attempt: 2025-08-22 17:43:44 UTC
+last_check_details:
+  timestamp: 2025-08-22 17:46:12 UTC
+  status: failed
+  checks:
+    merge_markers:
+      passed: yes
+      issues: []
+    large_files:
+      passed: yes
+      issues: []
+    dependencies:
+      passed: yes
+      issues: []
+    version:
+      passed: no
+      issues: Version 3.21.1 minor number 21 is odd, but Bioconductor release expects
+        even minor versions
+    bioccheck:
+      passed: yes
+      warnings: []
+      errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+      full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+issues: 'version: Version 3.21.1 minor number 21 is odd, but Bioconductor release
+  expects even minor versions'

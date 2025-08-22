@@ -1,8 +1,29 @@
 package: ontoProc
 version: 2.2.4
 commit_hash: 67dc810b44d297372f54769a839750812723483f
-last_check: ~
-last_successful_check: ~
-status: pending_check
+last_check: 2025-08-22 17:43:56 UTC
+last_successful_check: 2025-08-22 17:43:56 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-08-21 20:43:25 UTC
+last_check_attempt: 2025-08-22 17:43:44 UTC
+last_check_details:
+  timestamp: 2025-08-22 17:43:56 UTC
+  status: passed
+  checks:
+    merge_markers:
+      passed: yes
+      issues: []
+    large_files:
+      passed: yes
+      issues: []
+    dependencies:
+      passed: yes
+      issues: []
+    version:
+      passed: yes
+      issues: []
+    bioccheck:
+      passed: yes
+      warnings: []
+      errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+      full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '

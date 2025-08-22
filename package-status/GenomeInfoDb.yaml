@@ -1,8 +1,32 @@
 package: GenomeInfoDb
 version: 1.44.2
 commit_hash: bfeba8ecc72200ed1ed5466118a0287230d2959d
-last_check: ~
+last_check: 2025-08-22 17:43:51 UTC
 last_successful_check: ~
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-08-21 20:43:25 UTC
+last_check_attempt: 2025-08-22 17:43:44 UTC
+last_check_details:
+  timestamp: 2025-08-22 17:43:51 UTC
+  status: failed
+  checks:
+    merge_markers:
+      passed: no
+      issues: 'Merge marker ''======='' found in inst/registered/NCBI_assemblies/Escherichia_coli.R
+        (lines: 173, 195)'
+    large_files:
+      passed: yes
+      issues: []
+    dependencies:
+      passed: yes
+      issues: []
+    version:
+      passed: yes
+      issues: []
+    bioccheck:
+      passed: yes
+      warnings: []
+      errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+      full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+issues: 'merge_markers: Merge marker ''======='' found in inst/registered/NCBI_assemblies/Escherichia_coli.R
+  (lines: 173, 195)'

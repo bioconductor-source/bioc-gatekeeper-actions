@@ -1,8 +1,42 @@
 package: GenomicAlignments
 version: 1.44.0
 commit_hash: 41db306111154fd8249d1d785d48b76cc62047d9
-last_check: ~
+last_check: 2025-08-22 17:45:17 UTC
 last_successful_check: ~
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-08-21 20:43:25 UTC
+last_check_attempt: 2025-08-22 17:43:44 UTC
+last_check_details:
+  timestamp: 2025-08-22 17:45:17 UTC
+  status: failed
+  checks:
+    merge_markers:
+      passed: no
+      issues:
+      - 'Merge marker ''>>>>>>>'' found in inst/doc/OverlapEncodings.Rnw (lines: 623,
+        629, 635, 655, 661, 779, 786, 793, 800, 807, 1366, 1372, 1378, 1456, 1463,
+        1470)'
+      - 'Merge marker ''>>>>>>>'' found in vignettes/OverlapEncodings.Rnw (lines:
+        623, 629, 635, 655, 661, 779, 786, 793, 800, 807, 1366, 1372, 1378, 1456,
+        1463, 1470)'
+    large_files:
+      passed: yes
+      issues: []
+    dependencies:
+      passed: yes
+      issues: []
+    version:
+      passed: yes
+      issues: []
+    bioccheck:
+      passed: yes
+      warnings: []
+      errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+      full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+issues:
+- 'merge_markers: Merge marker ''>>>>>>>'' found in inst/doc/OverlapEncodings.Rnw
+  (lines: 623, 629, 635, 655, 661, 779, 786, 793, 800, 807, 1366, 1372, 1378, 1456,
+  1463, 1470)'
+- 'merge_markers: Merge marker ''>>>>>>>'' found in vignettes/OverlapEncodings.Rnw
+  (lines: 623, 629, 635, 655, 661, 779, 786, 793, 800, 807, 1366, 1372, 1378, 1456,
+  1463, 1470)'

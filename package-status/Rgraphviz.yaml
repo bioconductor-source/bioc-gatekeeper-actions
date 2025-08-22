@@ -1,8 +1,42 @@
 package: Rgraphviz
 version: 2.52.0
 commit_hash: 56c24049e5d125d3166b7b1db659d4757b882189
-last_check: ~
+last_check: 2025-08-22 17:46:02 UTC
 last_successful_check: ~
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-08-21 20:43:25 UTC
+last_check_attempt: 2025-08-22 17:43:44 UTC
+last_check_details:
+  timestamp: 2025-08-22 17:46:02 UTC
+  status: failed
+  checks:
+    merge_markers:
+      passed: no
+      issues:
+      - 'Merge marker ''======='' found in src/graphviz/lib/neatogen/overlap.c (lines:
+        247, 405)'
+      - 'Merge marker ''======='' found in src/graphviz/lib/sfdpgen/post_process.c
+        (lines: 807, 933)'
+      - 'Merge marker ''======='' found in src/graphviz/lib/sparse/IntStack.c (lines:
+        77)'
+    large_files:
+      passed: yes
+      issues: []
+    dependencies:
+      passed: yes
+      issues: []
+    version:
+      passed: yes
+      issues: []
+    bioccheck:
+      passed: yes
+      warnings: []
+      errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+      full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+issues:
+- 'merge_markers: Merge marker ''======='' found in src/graphviz/lib/neatogen/overlap.c
+  (lines: 247, 405)'
+- 'merge_markers: Merge marker ''======='' found in src/graphviz/lib/sfdpgen/post_process.c
+  (lines: 807, 933)'
+- 'merge_markers: Merge marker ''======='' found in src/graphviz/lib/sparse/IntStack.c
+  (lines: 77)'

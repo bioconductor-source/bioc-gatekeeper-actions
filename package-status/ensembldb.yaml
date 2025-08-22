@@ -1,8 +1,31 @@
 package: ensembldb
 version: 2.32.0
 commit_hash: 28aabc4f6e849877832b225fa07ab520d52330f1
-last_check: ~
+last_check: 2025-08-22 17:45:11 UTC
 last_successful_check: ~
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-08-21 20:43:25 UTC
+last_check_attempt: 2025-08-22 17:43:44 UTC
+last_check_details:
+  timestamp: 2025-08-22 17:45:11 UTC
+  status: failed
+  checks:
+    merge_markers:
+      passed: no
+      issues: 'Merge marker ''======='' found in R/seqname-utils.R (lines: 229)'
+    large_files:
+      passed: yes
+      issues: []
+    dependencies:
+      passed: yes
+      issues: []
+    version:
+      passed: yes
+      issues: []
+    bioccheck:
+      passed: yes
+      warnings: []
+      errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+      full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+issues: 'merge_markers: Merge marker ''======='' found in R/seqname-utils.R (lines:
+  229)'

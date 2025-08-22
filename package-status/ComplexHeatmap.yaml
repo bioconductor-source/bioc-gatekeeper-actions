@@ -1,8 +1,41 @@
 package: ComplexHeatmap
 version: 2.24.1
 commit_hash: 5b864d600a61f759a46cc3c4ddd68c25818a7b24
-last_check: ~
+last_check: 2025-08-22 17:44:07 UTC
 last_successful_check: ~
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-08-21 20:43:25 UTC
+last_check_attempt: 2025-08-22 17:43:44 UTC
+last_check_details:
+  timestamp: 2025-08-22 17:44:07 UTC
+  status: failed
+  checks:
+    merge_markers:
+      passed: no
+      issues:
+      - 'Merge marker ''======='' found in extra/ComplexHeatmap.html (lines: 2369,
+        2400, 2419, 2450)'
+      - 'Merge marker ''======='' found in man/anno_block.Rd (lines: 50, 81)'
+      - 'Merge marker ''======='' found in R/AnnotationFunction-function.R (lines:
+        3620, 3651)'
+    large_files:
+      passed: yes
+      issues: []
+    dependencies:
+      passed: yes
+      issues: []
+    version:
+      passed: yes
+      issues: []
+    bioccheck:
+      passed: yes
+      warnings: []
+      errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+      full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+issues:
+- 'merge_markers: Merge marker ''======='' found in extra/ComplexHeatmap.html (lines:
+  2369, 2400, 2419, 2450)'
+- 'merge_markers: Merge marker ''======='' found in man/anno_block.Rd (lines: 50,
+  81)'
+- 'merge_markers: Merge marker ''======='' found in R/AnnotationFunction-function.R
+  (lines: 3620, 3651)'

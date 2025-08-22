@@ -1,8 +1,56 @@
 package: rhdf5filters
 version: 1.20.0
 commit_hash: 3a5ed04b4966a7a5a250fa519d431c1ea8fb28fc
-last_check: ~
+last_check: 2025-08-22 17:44:42 UTC
 last_successful_check: ~
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-08-21 20:43:25 UTC
+last_check_attempt: 2025-08-22 17:43:44 UTC
+last_check_details:
+  timestamp: 2025-08-22 17:44:42 UTC
+  status: failed
+  checks:
+    merge_markers:
+      passed: no
+      issues:
+      - 'Merge marker ''======='' found in src/zstd/common/huf.h (lines: 231, 233)'
+      - 'Merge marker ''======='' found in src/zstd/common/pool.c (lines: 12, 315,
+        317)'
+      - 'Merge marker ''======='' found in src/zstd/common/xxhash.h (lines: 1222,
+        1223, 1224, 2772, 3182, 3673)'
+      - 'Merge marker ''======='' found in src/zstd/compress/zstd_compress_internal.h
+        (lines: 1396, 1411, 1517)'
+      - 'Merge marker ''======='' found in src/zstd/compress/zstdmt_compress.c (lines:
+        1214, 1215, 1216)'
+      - 'Merge marker ''======='' found in src/zstd/compress/zstdmt_compress.h (lines:
+        48)'
+      - 'Merge marker ''======='' found in src/zstd/zstd.h (lines: 2964, 2966)'
+    large_files:
+      passed: yes
+      issues: []
+    dependencies:
+      passed: yes
+      issues: []
+    version:
+      passed: yes
+      issues: []
+    bioccheck:
+      passed: yes
+      warnings: []
+      errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+      full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+issues:
+- 'merge_markers: Merge marker ''======='' found in src/zstd/common/huf.h (lines:
+  231, 233)'
+- 'merge_markers: Merge marker ''======='' found in src/zstd/common/pool.c (lines:
+  12, 315, 317)'
+- 'merge_markers: Merge marker ''======='' found in src/zstd/common/xxhash.h (lines:
+  1222, 1223, 1224, 2772, 3182, 3673)'
+- 'merge_markers: Merge marker ''======='' found in src/zstd/compress/zstd_compress_internal.h
+  (lines: 1396, 1411, 1517)'
+- 'merge_markers: Merge marker ''======='' found in src/zstd/compress/zstdmt_compress.c
+  (lines: 1214, 1215, 1216)'
+- 'merge_markers: Merge marker ''======='' found in src/zstd/compress/zstdmt_compress.h
+  (lines: 48)'
+- 'merge_markers: Merge marker ''======='' found in src/zstd/zstd.h (lines: 2964,
+  2966)'
