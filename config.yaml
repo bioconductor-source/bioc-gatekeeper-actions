@@ -51,7 +51,6 @@ checks:
     blocking: false
     quit_with_status: false
     no_check_vignettes: true  # Skip for performance
-    new_package: false
 
 # Deployment settings
 deployment:

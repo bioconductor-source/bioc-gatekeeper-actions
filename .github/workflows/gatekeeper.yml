@@ -1,0 +1,114 @@
+name: Bioconductor Package Gatekeeper
+
+on:
+  schedule:
+    # Run every 2 hours
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      force_check:
+        description: 'Force check all packages regardless of changes'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  monitor-packages:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Setup R
+      uses: r-lib/actions/setup-r@v2
+      with:
+        r-version: 'release'
+        use-public-rspm: true
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+        
+        # Install rclone for deployment
+        curl https://rclone.org/install.sh | sudo bash
+
+    - name: Install R dependencies
+      run: |
+        Rscript -e "install.packages(c('httr2', 'yaml', 'jsonlite', 'BiocManager', 'remotes'))"
+        Rscript -e "BiocManager::install('BiocCheck')"
+
+    - name: Create directories
+      run: |
+        mkdir -p package-status
+        mkdir -p logs
+        mkdir -p temp
+
+    - name: Monitor packages
+      id: monitor
+      run: |
+        Rscript scripts/monitor-packages.R
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        FORCE_CHECK: ${{ github.event.inputs.force_check || 'false' }}
+
+    - name: Check packages
+      if: steps.monitor.outputs.packages_to_check != ''
+      run: |
+        Rscript scripts/check-packages.R "${{ steps.monitor.outputs.packages_to_check }}"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Update status files
+      run: |
+        Rscript scripts/update-status.R
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Generate dashboards
+      run: |
+        Rscript scripts/generate-markdown-dashboard.R
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Deploy passing packages
+      if: steps.monitor.outputs.packages_to_check != ''
+      run: |
+        Rscript scripts/deploy-packages.R
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        RCLONE_CONFIG_PRODUCTION_TYPE: ${{ secrets.RCLONE_CONFIG_PRODUCTION_TYPE }}
+        RCLONE_CONFIG_PRODUCTION_ACCESS_KEY_ID: ${{ secrets.RCLONE_CONFIG_PRODUCTION_ACCESS_KEY_ID }}
+        RCLONE_CONFIG_PRODUCTION_SECRET_ACCESS_KEY: ${{ secrets.RCLONE_CONFIG_PRODUCTION_SECRET_ACCESS_KEY }}
+        RCLONE_CONFIG_PRODUCTION_ENDPOINT: ${{ secrets.RCLONE_CONFIG_PRODUCTION_ENDPOINT }}
+        RCLONE_CONFIG_PRODUCTION_REGION: ${{ secrets.RCLONE_CONFIG_PRODUCTION_REGION }}
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add package-status/ logs/ gatekeeper-dashboard.md status.txt
+        if ! git diff --staged --quiet; then
+          git commit -m "Update package status and logs - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          git push
+        else
+          echo "No changes to commit"
+        fi
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: gatekeeper-logs
+        path: |
+          logs/
+          temp/
+        retention-days: 30

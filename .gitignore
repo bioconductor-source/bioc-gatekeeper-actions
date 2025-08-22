@@ -3,6 +3,10 @@ temp/
 *.tmp
 *.temp
 
+# Deployment staging areas
+temp/passing/
+temp/passing-binaries/
+
 # R specific
 .Rproj.user/
 .Rhistory
