@@ -3,9 +3,9 @@ version: 1.36.0
 commit_hash: 1e32d9f9fc78bddffd1600aee8e46d76fa296b71
 last_check: 2025-08-22 17:45:05 UTC
 last_successful_check: ~
-status: failed
+status: pending_check
 last_modified: ''
-last_check_attempt: 2025-08-22 17:43:44 UTC
+last_check_attempt: 2025-08-22 19:20:56 UTC
 last_check_details:
   timestamp: 2025-08-22 17:45:05 UTC
   status: failed

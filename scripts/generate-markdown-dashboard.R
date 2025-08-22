@@ -32,8 +32,8 @@ generate_markdown_dashboard <- function() {
   md <- paste0(md, sprintf("- **Total Packages:** %d\n", summary$total_packages))
   md <- paste0(md, sprintf("- **✅ Passed:** %d\n", summary$status_counts$passed))
   md <- paste0(md, sprintf("- **❌ Failed:** %d\n", summary$status_counts$failed))
-  md <- paste0(md, sprintf("- **⏳ Pending:** %d\n", summary$status_counts$pending_check))
-  md <- paste0(md, sprintf("- **❓ Never Checked:** %d\n\n", summary$status_counts$never_checked))
+  md <- paste0(md, sprintf("- **Pending:** %d\n", summary$status_counts$pending_check))
+  md <- paste0(md, sprintf("- **Never Checked:** %d\n\n", summary$status_counts$never_checked))
   
   # Alert section for failures
   failed_packages <- names(summary$packages)[sapply(names(summary$packages), function(x) {
@@ -41,7 +41,7 @@ generate_markdown_dashboard <- function() {
   })]
   
   if (length(failed_packages) > 0) {
-    md <- paste0(md, "## 🚨 URGENT: Failed Packages\n\n")
+    md <- paste0(md, "## ❌ Failed Packages\n\n")
     md <- paste0(md, sprintf("**%d packages are currently failing checks:**\n\n", length(failed_packages)))
     
     # Create quick failure table
@@ -50,8 +50,8 @@ generate_markdown_dashboard <- function() {
     
     for (pkg_name in failed_packages) {
       pkg <- summary$packages[[pkg_name]]
-      issues_icon <- if (!is.null(pkg$has_issues) && pkg$has_issues) "🔴" else "✅"
-      warnings_icon <- if (!is.null(pkg$has_bioccheck_warnings) && pkg$has_bioccheck_warnings) "⚠️" else "✅"
+      issues_icon <- if (!is.null(pkg$has_issues) && pkg$has_issues) "Issues" else "None"
+      warnings_icon <- if (!is.null(pkg$has_bioccheck_warnings) && pkg$has_bioccheck_warnings) "Warnings" else "None"
       
       md <- paste0(md, sprintf("| **%s** | %s | %s | %s | %s |\n",
                               pkg_name,
@@ -63,7 +63,7 @@ generate_markdown_dashboard <- function() {
     md <- paste0(md, "\n")
     
     # Detailed failure information
-    md <- paste0(md, "### 📋 Detailed Failure Information\n\n")
+    md <- paste0(md, "### Detailed Failure Information\n\n")
     
     for (pkg_name in failed_packages) {
       # Load detailed package status
@@ -123,7 +123,7 @@ generate_markdown_dashboard <- function() {
       }
     }
   } else {
-    md <- paste0(md, "## ✅ No Failed Packages\n\n")
+    md <- paste0(md, "## ✅ All Packages Passing\n\n")
     md <- paste0(md, "All packages are currently passing checks or pending review.\n\n")
   }
   
@@ -147,7 +147,7 @@ generate_markdown_dashboard <- function() {
   }
   
   # Status breakdown
-  md <- paste0(md, "## 📈 Status Breakdown\n\n")
+  md <- paste0(md, "## Status Breakdown\n\n")
   
   # All packages table
   md <- paste0(md, "### All Packages Status\n\n")
@@ -171,13 +171,13 @@ generate_markdown_dashboard <- function() {
     
     # Status icon
     status_icon <- switch(pkg$status %||% "never_checked",
-                         "passed" = "✅",
-                         "failed" = "❌",
-                         "pending_check" = "⏳",
-                         "❓")
+                         "passed" = "✅ passed",
+                         "failed" = "❌ failed",
+                         "pending_check" = "⏳ pending",
+                         "❓ never checked")
     
-    issues_icon <- if (!is.null(pkg$has_issues) && pkg$has_issues) "🔴" else "✅"
-    warnings_icon <- if (!is.null(pkg$has_bioccheck_warnings) && pkg$has_bioccheck_warnings) "⚠️" else "✅"
+    issues_icon <- if (!is.null(pkg$has_issues) && pkg$has_issues) "Issues" else "None"
+    warnings_icon <- if (!is.null(pkg$has_bioccheck_warnings) && pkg$has_bioccheck_warnings) "Warnings" else "None"
     
     md <- paste0(md, sprintf("| %s | %s | %s %s | %s | %s | %s | %s |\n",
                             pkg_name,
@@ -193,11 +193,11 @@ generate_markdown_dashboard <- function() {
   md <- paste0(md, "\n")
   
   # Action items
-  md <- paste0(md, "## 🎯 Action Items\n\n")
+  md <- paste0(md, "## Action Items\n\n")
   
   if (length(failed_packages) > 0) {
     md <- paste0(md, "### High Priority\n")
-    md <- paste0(md, sprintf("1. **Fix %d failed packages** - These are blocking issues that need immediate attention\n", length(failed_packages)))
+    md <- paste0(md, sprintf("1. **Fix %d failed packages** - These are blocking issues that need attention\n", length(failed_packages)))
     
     # Group failures by type
     merge_issues <- 0

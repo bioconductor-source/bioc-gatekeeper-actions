@@ -143,9 +143,13 @@ check_merge_markers <- function(pkg_dir, package_name) {
       for (marker in merge_markers) {
         marker_lines <- grep(marker, content, fixed = TRUE)
         if (length(marker_lines) > 0) {
-          rel_path <- gsub(paste0("^", pkg_dir, "/"), "", file)
-          issues <- c(issues, sprintf("Merge marker '%s' found in %s (lines: %s)", 
-                                    trimws(marker), rel_path, paste(marker_lines, collapse = ", ")))
+          # Filter out lines that start with comment characters (after whitespace)
+          valid_marker_lines <- marker_lines[!grepl("^\\s*[#%\\/\\*]", content[marker_lines])]
+          if (length(valid_marker_lines) > 0) {
+            rel_path <- gsub(paste0("^", pkg_dir, "/"), "", file)
+            issues <- c(issues, sprintf("Merge marker '%s' found in %s (lines: %s)", 
+                                      trimws(marker), rel_path, paste(valid_marker_lines, collapse = ", ")))
+          }
         }
       }
     }, error = function(e) {
