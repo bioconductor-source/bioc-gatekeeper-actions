@@ -1,0 +1,82 @@
+# Bioconductor Gatekeeper Configuration
+
+# Bioconductor version configuration
+bioconductor:
+  # Current Bioconductor version (used for version validation)
+  version: "3.21"
+  # Release cycle: "release" or "devel"
+  cycle: "release"
+  # Expected minor version parity (even for release, odd for devel)
+  expected_minor_parity: "even"  # "even" or "odd"
+
+# Package monitoring settings
+monitoring:
+  # R-universe API endpoint
+  api_url: "https://bioconductor-source.r-universe.dev/api/packages"
+  
+  # User agent for API requests
+  user_agent: "Bioconductor Gatekeeper"
+  
+  # How often to check for updates (cron format)
+  schedule: "0 */2 * * *"  # Every 2 hours
+
+# Quality check settings
+checks:
+  # Maximum file size in MB
+  max_file_size_mb: 5
+  
+  # File patterns to exclude from merge marker checks
+  merge_marker_excludes:
+    - "*.png"
+    - "*.jpg"
+    - "*.jpeg"
+    - "*.gif"
+    - "*.pdf"
+    - "*.so"
+    - "*.dll"
+    - "*.exe"
+    - "*.zip"
+    - "*.tar.gz"
+  
+  # Merge conflict markers to detect
+  merge_markers:
+    - "<<<<<<< "
+    - "======= "
+    - ">>>>>>> "
+  
+  # BiocCheck options
+  bioccheck:
+    enabled: true
+    # BiocCheck failures don't block packages (non-blocking)
+    blocking: false
+    quit_with_status: false
+    no_check_vignettes: true  # Skip for performance
+    new_package: false
+
+# Deployment settings
+deployment:
+  # rclone configuration
+  rclone:
+    enabled: true
+    # Production bucket for passing packages
+    bucket: "bioc-production"
+    # rclone remote name (configured separately)
+    remote: "production"
+    # Paths to sync
+    paths:
+      source: "temp/passing/"
+      binaries: "temp/passing-binaries/"
+
+# Output settings
+output:
+  # Directory for package status files
+  status_dir: "package-status"
+  
+  # Directory for logs
+  log_dir: "logs"
+  
+  # Directory for temporary files
+  temp_dir: "temp"
+  
+  # Log file retention (days)
+  log_retention_days: 30

@@ -1,0 +1,8 @@
+package: BiocVersion
+version: 3.21.1
+commit_hash: 1e5e5afe88e423e3923ab9a527f62a760278052e
+last_check: ~
+last_successful_check: ~
+status: pending_check
+last_modified: ''
+last_check_attempt: 2025-08-21 20:43:25 UTC

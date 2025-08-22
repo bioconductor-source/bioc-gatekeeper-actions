@@ -1,0 +1,771 @@
+timestamp: 2025-08-21 20:47:05 UTC
+total_packages: 110
+packages:
+  affy:
+    version: 1.86.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  affyio:
+    version: 1.78.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  alevinQC:
+    version: 1.24.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  annotate:
+    version: 1.86.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  AnnotationDbi:
+    version: 1.70.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  AnnotationFilter:
+    version: 1.32.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  AnnotationHub:
+    version: 3.16.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  basilisk.utils:
+    version: 1.20.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  basilisk:
+    version: 1.20.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  Biobase:
+    version: 2.68.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  BiocBaseUtils:
+    version: 1.10.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  BiocFileCache:
+    version: 2.16.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  BiocGenerics:
+    version: 0.54.0
+    status: passed
+    last_check: 2025-08-21 20:46:40 UTC
+    last_successful_check: 2025-08-21 20:46:40 UTC
+    has_issues: no
+    has_bioccheck_warnings: no
+  BiocIO:
+    version: 1.18.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  BiocParallel:
+    version: 1.42.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  BiocPkgTools:
+    version: 1.26.3
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  BiocStyle:
+    version: 2.36.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  BiocVersion:
+    version: 3.21.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  biocViews:
+    version: 1.76.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  biomaRt:
+    version: 2.64.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  Biostrings:
+    version: 2.76.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  biovizBase:
+    version: 1.56.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  BSgenome:
+    version: 1.76.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  bumphunter:
+    version: 1.50.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  ComplexHeatmap:
+    version: 2.24.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  ConsensusClusterPlus:
+    version: 1.72.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  cytolib:
+    version: 2.20.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  DelayedArray:
+    version: 0.34.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  DelayedMatrixStats:
+    version: 1.30.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  DESeq2:
+    version: 1.48.2
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  diffcyt:
+    version: 1.28.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  dir.expiry:
+    version: 1.16.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  DirichletMultinomial:
+    version: 1.50.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  EBImage:
+    version: 4.50.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  edgeR:
+    version: 4.6.3
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  ensembldb:
+    version: 2.32.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  ExperimentHub:
+    version: 2.16.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  ExploreModelMatrix:
+    version: 1.20.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  flowCore:
+    version: 2.20.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  FlowSOM:
+    version: 2.16.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  genefilter:
+    version: 1.90.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  GenomeInfoDb:
+    version: 1.44.2
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  GenomicAlignments:
+    version: 1.44.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  GenomicDataCommons:
+    version: 1.32.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  GenomicFeatures:
+    version: 1.60.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  GenomicFiles:
+    version: 1.44.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  GenomicRanges:
+    version: 1.60.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  GenomicSuperSignature:
+    version: 1.16.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  GEOmetadb:
+    version: ~
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  GEOquery:
+    version: 2.76.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  ggtree:
+    version: 3.16.3
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  graph:
+    version: 1.86.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  Gviz:
+    version: 1.52.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  h5mread:
+    version: 1.0.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  HDF5Array:
+    version: 1.36.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  IHW:
+    version: 1.36.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  illuminaio:
+    version: 0.50.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  IRanges:
+    version: 2.42.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  iSEE:
+    version: 2.20.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  KEGGREST:
+    version: 1.48.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  limma:
+    version: 3.64.3
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  lpsymphony:
+    version: 1.36.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  MatrixGenerics:
+    version: 1.20.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  methylumi:
+    version: 2.54.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  minfi:
+    version: 1.54.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  monaLisa:
+    version: 1.14.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  MultiAssayExperiment:
+    version: 1.34.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  multtest:
+    version: 2.64.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  ontoProc:
+    version: 2.2.4
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  orthos:
+    version: 1.6.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  parody:
+    version: 1.66.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  plyranges:
+    version: 1.28.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  plyxp:
+    version: 1.2.7
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  preprocessCore:
+    version: 1.70.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  ProtGenerics:
+    version: 1.40.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  pwalign:
+    version: 1.4.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  QuasR:
+    version: 1.48.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  RBGL:
+    version: 1.84.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  Rbowtie:
+    version: 1.48.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  Rgraphviz:
+    version: 2.52.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  rhdf5:
+    version: 2.52.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  rhdf5filters:
+    version: 1.20.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  Rhdf5lib:
+    version: 1.30.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  Rhtslib:
+    version: 3.4.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  RProtoBufLib:
+    version: 2.20.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  Rsamtools:
+    version: 2.24.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  rtracklayer:
+    version: 1.68.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  S4Arrays:
+    version: 1.8.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  S4Vectors:
+    version: 0.46.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  seqLogo:
+    version: 1.74.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  ShortRead:
+    version: 1.66.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  siggenes:
+    version: 1.82.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  SingleCellExperiment:
+    version: 1.30.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  sketchR:
+    version: 1.4.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  SparseArray:
+    version: 1.8.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  sparseMatrixStats:
+    version: 1.20.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  SRAdb:
+    version: 1.70.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  SummarizedExperiment:
+    version: 1.38.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  TFBSTools:
+    version: 1.46.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  treeclimbR:
+    version: 1.4.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  treeio:
+    version: 1.32.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  TreeSummarizedExperiment:
+    version: 2.16.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  txdbmaker:
+    version: 1.4.2
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  tximeta:
+    version: 1.26.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  tximport:
+    version: 1.36.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  UCSC.utils:
+    version: 1.4.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  VariantAnnotation:
+    version: 1.54.1
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  vsn:
+    version: 3.76.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+  XVector:
+    version: 0.48.0
+    status: pending_check
+    last_check: ~
+    last_successful_check: ~
+    has_issues: no
+    has_bioccheck_warnings: no
+status_counts:
+  passed: 1.0
+  failed: 0.0
+  pending_check: 108.0
+  never_checked: 0.0

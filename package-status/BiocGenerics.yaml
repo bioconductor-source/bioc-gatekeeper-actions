@@ -1,0 +1,29 @@
+package: BiocGenerics
+version: 0.54.0
+commit_hash: 75c48153ee2c28f84cd0625ed3ca1aaf8eb74211
+last_successful_check: 2025-08-21 20:46:40 UTC
+status: passed
+last_modified: ''
+last_check_attempt: 2025-08-21 20:43:25 UTC
+last_check_details:
+  timestamp: 2025-08-21 20:46:40 UTC
+  status: passed
+  checks:
+    merge_markers:
+      passed: yes
+      issues: []
+    large_files:
+      passed: yes
+      issues: []
+    dependencies:
+      passed: yes
+      issues: []
+    version:
+      passed: yes
+      issues: []
+    bioccheck:
+      passed: yes
+      warnings: []
+      errors: BiocCheck package not available
+      full_output: []
+last_check: 2025-08-21 20:46:40 UTC

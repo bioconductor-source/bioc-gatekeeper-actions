@@ -1,0 +1,8 @@
+package: rhdf5filters
+version: 1.20.0
+commit_hash: 3a5ed04b4966a7a5a250fa519d431c1ea8fb28fc
+last_check: ~
+last_successful_check: ~
+status: pending_check
+last_modified: ''
+last_check_attempt: 2025-08-21 20:43:25 UTC

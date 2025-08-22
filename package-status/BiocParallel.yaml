@@ -1,0 +1,8 @@
+package: BiocParallel
+version: 1.42.1
+commit_hash: f4545c23ed1ebeebaa5a1d1922768d5796b1d4de
+last_check: ~
+last_successful_check: ~
+status: pending_check
+last_modified: ''
+last_check_attempt: 2025-08-21 20:43:25 UTC

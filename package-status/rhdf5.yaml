@@ -1,0 +1,8 @@
+package: rhdf5
+version: 2.52.1
+commit_hash: f8211976d6f0438546c704565ae85bba914c3c61
+last_check: ~
+last_successful_check: ~
+status: pending_check
+last_modified: ''
+last_check_attempt: 2025-08-21 20:43:25 UTC
