@@ -1,13 +1,13 @@
 package: BiocFileCache
-version: 2.16.1
-commit_hash: 3d619b5e4845298f6961c2a772e143bed4adb1c3
-last_check: 2025-08-22 19:25:54 UTC
-last_successful_check: 2025-08-22 19:25:54 UTC
+version: 2.16.2
+commit_hash: 22fec96088ab8e91f520fde4d7dc556016e33218
+last_check: 2025-08-25 12:57:38 UTC
+last_successful_check: 2025-08-25 12:57:38 UTC
 status: passed
 last_modified: ''
-last_check_attempt: 2025-08-22 19:25:36 UTC
+last_check_attempt: 2025-08-25 12:57:36 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:25:54 UTC
+  timestamp: 2025-08-25 12:57:38 UTC
   status: passed
   checks:
     merge_markers:

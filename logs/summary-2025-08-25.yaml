@@ -1,4 +1,4 @@
-timestamp: 2025-08-25 10:35:17 UTC
+timestamp: 2025-08-25 12:57:38 UTC
 total_packages: 110
 packages:
   affy:
@@ -79,10 +79,10 @@ packages:
     has_issues: no
     has_bioccheck_warnings: no
   BiocFileCache:
-    version: 2.16.1
+    version: 2.16.2
     status: passed
-    last_check: 2025-08-22 19:25:54 UTC
-    last_successful_check: 2025-08-22 19:25:54 UTC
+    last_check: 2025-08-25 12:57:38 UTC
+    last_successful_check: 2025-08-25 12:57:38 UTC
     has_issues: no
     has_bioccheck_warnings: no
   BiocGenerics:
