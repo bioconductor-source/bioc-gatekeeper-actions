@@ -1,13 +1,13 @@
 package: plyranges
 version: 1.28.0
 commit_hash: 1d0bf92787c8f6b8cef4a4ead96078976fa7f748
-last_check: 2025-08-22 19:26:41 UTC
-last_successful_check: 2025-08-22 19:26:41 UTC
-status: pending_check
+last_check: 2025-09-03 18:17:29 UTC
+last_successful_check: 2025-09-03 18:17:29 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-09-03 18:00:44 UTC
+last_check_attempt: 2025-09-03 18:15:21 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:26:41 UTC
+  timestamp: 2025-09-03 18:17:29 UTC
   status: passed
   checks:
     merge_markers:

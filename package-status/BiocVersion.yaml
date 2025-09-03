@@ -1,13 +1,13 @@
 package: BiocVersion
 version: 3.21.1
 commit_hash: 1e5e5afe88e423e3923ab9a527f62a760278052e
-last_check: 2025-08-22 19:27:58 UTC
+last_check: 2025-09-03 18:21:00 UTC
 last_successful_check: ~
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-09-03 18:00:44 UTC
+last_check_attempt: 2025-09-03 18:15:21 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:27:58 UTC
+  timestamp: 2025-09-03 18:21:00 UTC
   status: failed
   checks:
     merge_markers:

@@ -1,37 +1,20 @@
 package: lpsymphony
 version: 1.36.0
 commit_hash: 3811466d004118637d20e538cd2330e68d2a1090
-last_check: 2025-08-22 19:26:56 UTC
+last_check: 2025-09-03 18:18:15 UTC
 last_successful_check: ~
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-09-03 18:00:44 UTC
+last_check_attempt: 2025-09-03 18:15:21 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:26:56 UTC
+  timestamp: 2025-09-03 18:18:15 UTC
   status: failed
   checks:
     merge_markers:
       passed: no
       issues:
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/MPP/testing
-        (lines: 6)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/SPP/testing
-        (lines: 6)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/SPP+CUTS/testing
-        (lines: 6)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/USER/testing
-        (lines: 13)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/VRP/testing
-        (lines: 10)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/scripts/compile_all
-        (lines: 6, 10)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/scripts/compile_and_clean_all
-        (lines: 6, 11)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/src/Master/master_io.c
-        (lines: 135, 827, 830, 841, 860, 896, 917, 926, 950, 959, 968, 977, 1076,
-        1180)'
-      - 'Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/src/Master/master.c
-        (lines: 1508)'
+      - Git conflict separator '=======' found in src/SYMPHONY/Cgl/README (line 50)
+      - Git conflict separator '=======' found in src/SYMPHONY/Osi/README (line 53)
     large_files:
       passed: no
       issues:
@@ -49,23 +32,9 @@ last_check_details:
       errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
       full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '
 issues:
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/MPP/testing
-  (lines: 6)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/SPP/testing
-  (lines: 6)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/SPP+CUTS/testing
-  (lines: 6)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/USER/testing
-  (lines: 13)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/Applications/VRP/testing
-  (lines: 10)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/scripts/compile_all
-  (lines: 6, 10)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/scripts/compile_and_clean_all
-  (lines: 6, 11)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/src/Master/master_io.c
-  (lines: 135, 827, 830, 841, 860, 896, 917, 926, 950, 959, 968, 977, 1076, 1180)'
-- 'merge_markers: Merge marker ''======='' found in src/SYMPHONY/SYMPHONY/src/Master/master.c
-  (lines: 1508)'
+- 'merge_markers: Git conflict separator ''======='' found in src/SYMPHONY/Cgl/README
+  (line 50)'
+- 'merge_markers: Git conflict separator ''======='' found in src/SYMPHONY/Osi/README
+  (line 53)'
 - 'large_files: src/WinLib/i386/lpsymphony.dll (5.39 MB)'
 - 'large_files: src/WinLib/x64/lpsymphony.dll (6.71 MB)'

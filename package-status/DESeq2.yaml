@@ -1,13 +1,13 @@
 package: DESeq2
 version: 1.48.2
 commit_hash: eb2ea0428c07ab928bd5a69f78c74ee5ad92a7bc
-last_check: 2025-08-22 19:25:42 UTC
-last_successful_check: 2025-08-22 19:25:42 UTC
-status: pending_check
+last_check: 2025-09-03 18:15:30 UTC
+last_successful_check: 2025-09-03 18:15:30 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-09-03 18:00:44 UTC
+last_check_attempt: 2025-09-03 18:15:21 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:25:42 UTC
+  timestamp: 2025-09-03 18:15:30 UTC
   status: passed
   checks:
     merge_markers:

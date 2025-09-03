@@ -1,13 +1,13 @@
 package: BSgenome
 version: 1.76.0
 commit_hash: 93c0098eabc7fed49244891bc62958b1ea05c822
-last_check: 2025-08-22 19:27:35 UTC
+last_check: 2025-09-03 18:20:09 UTC
 last_successful_check: ~
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-09-03 18:00:44 UTC
+last_check_attempt: 2025-09-03 18:15:21 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:27:35 UTC
+  timestamp: 2025-09-03 18:20:09 UTC
   status: failed
   checks:
     merge_markers:

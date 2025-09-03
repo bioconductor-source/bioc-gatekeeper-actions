@@ -1,19 +1,18 @@
 package: IRanges
 version: 2.42.0
 commit_hash: d942b61c969dd5410e09ad089f5dc584dd9b7cf9
-last_check: 2025-08-22 19:27:46 UTC
-last_successful_check: ~
-status: pending_check
+last_check: 2025-09-03 18:20:35 UTC
+last_successful_check: 2025-09-03 18:20:35 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-09-03 18:00:44 UTC
+last_check_attempt: 2025-09-03 18:15:21 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:27:46 UTC
-  status: failed
+  timestamp: 2025-09-03 18:20:35 UTC
+  status: passed
   checks:
     merge_markers:
-      passed: no
-      issues: 'Merge marker ''======='' found in src/NCList.c (lines: 294, 304, 312,
-        322)'
+      passed: yes
+      issues: []
     large_files:
       passed: yes
       issues: []
@@ -28,5 +27,3 @@ last_check_details:
       warnings: []
       errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
       full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '
-issues: 'merge_markers: Merge marker ''======='' found in src/NCList.c (lines: 294,
-  304, 312, 322)'

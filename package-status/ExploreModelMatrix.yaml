@@ -1,13 +1,13 @@
 package: ExploreModelMatrix
 version: 1.20.0
 commit_hash: 37f9457c47901cef3fb3dc5b37b8779dc5ac99fa
-last_check: 2025-08-22 19:26:31 UTC
-last_successful_check: 2025-08-22 19:26:31 UTC
-status: pending_check
+last_check: 2025-09-03 18:17:07 UTC
+last_successful_check: 2025-09-03 18:17:07 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-09-03 18:00:44 UTC
+last_check_attempt: 2025-09-03 18:15:21 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:26:31 UTC
+  timestamp: 2025-09-03 18:17:07 UTC
   status: passed
   checks:
     merge_markers:

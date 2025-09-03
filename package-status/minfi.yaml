@@ -1,13 +1,13 @@
 package: minfi
 version: 1.54.1
 commit_hash: ff9879929ffa8f41dad741714049aba4d2bb8d65
-last_check: 2025-08-22 19:26:15 UTC
-last_successful_check: 2025-08-22 19:26:15 UTC
-status: pending_check
+last_check: 2025-09-03 18:16:43 UTC
+last_successful_check: 2025-09-03 18:16:43 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-09-03 18:00:44 UTC
+last_check_attempt: 2025-09-03 18:15:21 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:26:15 UTC
+  timestamp: 2025-09-03 18:16:43 UTC
   status: passed
   checks:
     merge_markers:

@@ -1,13 +1,13 @@
 package: tximeta
 version: 1.26.1
 commit_hash: 72fc4b6485f16c8748ed0a5f2026f897abb3ba3d
-last_check: 2025-08-22 19:26:11 UTC
-last_successful_check: 2025-08-22 19:26:11 UTC
-status: pending_check
+last_check: 2025-09-03 18:16:39 UTC
+last_successful_check: 2025-09-03 18:16:39 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-09-03 18:00:44 UTC
+last_check_attempt: 2025-09-03 18:15:21 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:26:11 UTC
+  timestamp: 2025-09-03 18:16:39 UTC
   status: passed
   checks:
     merge_markers:

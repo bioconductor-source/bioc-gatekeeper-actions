@@ -1,19 +1,19 @@
 package: Rgraphviz
 version: 2.52.0
 commit_hash: 56c24049e5d125d3166b7b1db659d4757b882189
-last_check: 2025-08-22 19:27:49 UTC
+last_check: 2025-09-03 18:20:44 UTC
 last_successful_check: ~
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-09-03 18:00:44 UTC
+last_check_attempt: 2025-09-03 18:15:21 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:27:49 UTC
+  timestamp: 2025-09-03 18:20:44 UTC
   status: failed
   checks:
     merge_markers:
       passed: no
-      issues: 'Merge marker ''======='' found in src/graphviz/lib/sparse/IntStack.c
-        (lines: 77)'
+      issues: Git conflict separator '=======' found in inst/prepare/README (line
+        99)
     large_files:
       passed: yes
       issues: []
@@ -28,5 +28,5 @@ last_check_details:
       warnings: []
       errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
       full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '
-issues: 'merge_markers: Merge marker ''======='' found in src/graphviz/lib/sparse/IntStack.c
-  (lines: 77)'
+issues: 'merge_markers: Git conflict separator ''======='' found in inst/prepare/README
+  (line 99)'

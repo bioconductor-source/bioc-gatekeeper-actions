@@ -1,13 +1,13 @@
 package: biocViews
 version: 1.76.0
 commit_hash: 75071f65ab775a60de1486471f5be97dfc45b7ba
-last_check: 2025-08-22 19:27:41 UTC
-last_successful_check: 2025-08-22 19:27:41 UTC
-status: pending_check
+last_check: 2025-09-03 18:20:30 UTC
+last_successful_check: 2025-09-03 18:20:30 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-09-03 18:00:44 UTC
+last_check_attempt: 2025-09-03 18:15:21 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:27:41 UTC
+  timestamp: 2025-09-03 18:20:30 UTC
   status: passed
   checks:
     merge_markers:

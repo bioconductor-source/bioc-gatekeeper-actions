@@ -1,13 +1,13 @@
 package: GenomeInfoDb
 version: 1.44.2
 commit_hash: bfeba8ecc72200ed1ed5466118a0287230d2959d
-last_check: 2025-08-22 19:25:43 UTC
-last_successful_check: 2025-08-22 19:25:43 UTC
-status: pending_check
+last_check: 2025-09-03 18:15:32 UTC
+last_successful_check: 2025-09-03 18:15:32 UTC
+status: passed
 last_modified: ''
-last_check_attempt: 2025-09-03 18:00:44 UTC
+last_check_attempt: 2025-09-03 18:15:21 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:25:43 UTC
+  timestamp: 2025-09-03 18:15:32 UTC
   status: passed
   checks:
     merge_markers:

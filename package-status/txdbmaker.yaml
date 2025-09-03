@@ -1,18 +1,19 @@
 package: txdbmaker
 version: 1.4.2
 commit_hash: 86f2cf42392261ede48710b1312a31266177a72b
-last_check: 2025-08-22 19:26:00 UTC
+last_check: 2025-09-03 18:16:24 UTC
 last_successful_check: 2025-08-22 19:26:00 UTC
-status: pending_check
+status: failed
 last_modified: ''
-last_check_attempt: 2025-09-03 18:00:44 UTC
+last_check_attempt: 2025-09-03 18:15:21 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:26:00 UTC
-  status: passed
+  timestamp: 2025-09-03 18:16:24 UTC
+  status: failed
   checks:
     merge_markers:
-      passed: yes
-      issues: []
+      passed: no
+      issues: Git conflict separator '=======' found in inst/extdata/README.txt (line
+        7)
     large_files:
       passed: yes
       issues: []
@@ -27,3 +28,5 @@ last_check_details:
       warnings: []
       errors: 'BiocCheck error: ''file'' must be NULL or an already open connection '
       full_output: 'BiocCheck error: ''file'' must be NULL or an already open connection '
+issues: 'merge_markers: Git conflict separator ''======='' found in inst/extdata/README.txt
+  (line 7)'
