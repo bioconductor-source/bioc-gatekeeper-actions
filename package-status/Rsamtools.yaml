@@ -1,13 +1,13 @@
 package: Rsamtools
-version: 2.24.0
-commit_hash: 54811e95fc30c22fe5430adf9d808946e0d828d5
-last_check: 2025-08-22 19:27:18 UTC
-last_successful_check: 2025-08-22 19:27:18 UTC
+version: 2.24.1
+commit_hash: 5fa43af28dd6ae25fbabd23e2e7329003ba53e30
+last_check: 2025-09-03 01:53:57 UTC
+last_successful_check: 2025-09-03 01:53:57 UTC
 status: passed
 last_modified: ''
-last_check_attempt: 2025-08-22 19:25:36 UTC
+last_check_attempt: 2025-09-03 01:53:54 UTC
 last_check_details:
-  timestamp: 2025-08-22 19:27:18 UTC
+  timestamp: 2025-09-03 01:53:57 UTC
   status: passed
   checks:
     merge_markers:
