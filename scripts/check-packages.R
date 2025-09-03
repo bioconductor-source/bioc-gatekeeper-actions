@@ -128,7 +128,6 @@ download_package <- function(package_name) {
 check_merge_markers <- function(pkg_dir, package_name) {
   log_message("Checking for merge markers", package = package_name)
   
-  merge_markers <- c("<<<<<<< ", "======= ", ">>>>>>> ")
   issues <- character(0)
   
   # Recursively check all text files
@@ -140,16 +139,30 @@ check_merge_markers <- function(pkg_dir, package_name) {
     
     tryCatch({
       content <- readLines(file, warn = FALSE)
-      for (marker in merge_markers) {
-        marker_lines <- grep(marker, content, fixed = TRUE)
-        if (length(marker_lines) > 0) {
-          # Filter out lines that start with comment characters (after whitespace)
-          valid_marker_lines <- marker_lines[!grepl("^\\s*[#%\\/\\*]", content[marker_lines])]
-          if (length(valid_marker_lines) > 0) {
-            rel_path <- gsub(paste0("^", pkg_dir, "/"), "", file)
-            issues <- c(issues, sprintf("Merge marker '%s' found in %s (lines: %s)", 
-                                      trimws(marker), rel_path, paste(valid_marker_lines, collapse = ", ")))
-          }
+      
+      # Check each line for actual Git merge conflict markers
+      for (line_num in seq_along(content)) {
+        line <- content[line_num]
+        
+        # Check for Git conflict start marker: <<<<<<< followed by space and branch/ref name
+        if (grepl("^<{7}\\s", line)) {
+          rel_path <- gsub(paste0("^", pkg_dir, "/"), "", file)
+          issues <- c(issues, sprintf("Git conflict start marker '<<<<<<< ' found in %s (line %d): %s", 
+                                    rel_path, line_num, trimws(line)))
+        }
+        
+        # Check for Git conflict separator: exactly 7 equals signs at start of line
+        if (grepl("^={7}$", line)) {
+          rel_path <- gsub(paste0("^", pkg_dir, "/"), "", file)
+          issues <- c(issues, sprintf("Git conflict separator '=======' found in %s (line %d)", 
+                                    rel_path, line_num))
+        }
+        
+        # Check for Git conflict end marker: >>>>>>> followed by space and branch/ref name
+        if (grepl("^>{7}\\s", line)) {
+          rel_path <- gsub(paste0("^", pkg_dir, "/"), "", file)
+          issues <- c(issues, sprintf("Git conflict end marker '>>>>>>> ' found in %s (line %d): %s", 
+                                    rel_path, line_num, trimws(line)))
         }
       }
     }, error = function(e) {
